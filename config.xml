@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.akashpaul.iosrtcapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>iOSRTCApp</name>
+    <description>
+        Google's AppRTC application adapted to iOS devices using cordova-plugin-iosrtc.
+    </description>
+    <author email="inaki.baz@eface2face.com" href="https://eface2face.com">
+        Iñaki Baz Castillo at eFace2Face, inc.
+    </author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="EnableViewportScale" value="true" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <plugin name="cordova-plugin-whitelist" version="1.0.0" />
+    <access origin="*" subdomains="true" uri="*"  />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <hook src="hooks/iosrtc-swift-support.js" type="after_platform_add" />
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <config-file parent="NSCameraUsageDescription" target="*-Info.plist">
+            <string>Blink uses your camera to make video calls.</string>
+        </config-file>
+        <config-file parent="NSContactsUsageDescription" target="*-Info.plist">
+            <string>Blink needs access to your contacts in order to be able to call them.</string>
+        </config-file>
+        <config-file parent="NSMicrophoneUsageDescription" target="*-Info.plist">
+            <string>Blink uses your microphone to make calls.</string>
+        </config-file>
+    </platform>
+    <plugin name="cordova-plugin-crosswalk-webview" spec="https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview" />
+    <plugin name="cordova-plugin-device" version="^1.0.1" />
+    <plugin name="cordova-plugin-iosrtc" version="^3.2.2" />
+    <plugin name="cordova-plugin-camera" spec="https://github.com/eface2face/cordova-plugin-camera" />
+    <plugin name="cordova-plugin-iosrtc-ios10" spec="https://github.com/seiryow/cordova-plugin-iosrtc-ios10" />
+</widget>
