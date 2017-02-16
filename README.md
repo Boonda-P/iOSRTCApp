@@ -1,7 +1,7 @@
 
 # MAJOR TODO
 
-This is basically just a simple Cordova app,I am about to upload an Ionic 2 app with the iOSRTC-plugin & some mods to work with iOS 10. Most likely with the EasyRTC framework.
+This is basically just a simple Cordova app, I'm going to upload an Ionic 2 app with the iOSRTC-plugin & some mods to work with iOS 10 & Android. Most likely with the EasyRTC framework.
 
 ## iOSRTCApp
 
