@@ -1,9 +1,9 @@
-![screenshot](https://raw.githubusercontent.com/eface2face/iOSRTCApp/master/art/photo1.jpg)
 
-*NOTE:* This project is not being actively maintained and it may not work with the latest version of the [cordova-plugin-iosrtc](https://github.com/eface2face/cordova-plugin-iosrtc) or the latest server side code of the Google's AppRTC.
+# MAJOR TODO
 
+This is basically just a simple Cordova app,I am about to upload an Ionic 2 app with the iOSRTC-plugin & some mods to work with iOS 10. Most likely with the EasyRTC framework.
 
-# iOSRTCApp
+## iOSRTCApp
 
 Google's [AppRTC](https://apprtc.appspot.com/) adapted to [Cordova](http://cordova.apache.org/) iOS with pure HTML5/JavaScript and [cordova-plugin-iosrtc](https://github.com/eface2face/cordova-plugin-iosrtc).
 
@@ -46,5 +46,3 @@ There are minor changes in the original HTML, JavaScript and CSS in order to mak
 ## Author
 
 *AppRTC* code is owned by Google as stated in the original [LICENSE](LICENSE.md) file.
-
-Changes to the original *AppRTC* HTML5 source code (to become a Cordova iOS application) are written by Iñaki Baz Castillo at [eFace2Face, inc](https://eface2face.com).
