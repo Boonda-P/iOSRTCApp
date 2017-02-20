@@ -8,7 +8,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/eface2face/iOSRTCApp.git"
+    "url": "https://github.com/iakashpaul/iOSRTCApp.git"
   },
   "keywords": [
     "cordova-plugin-iosrtc",
@@ -16,10 +16,10 @@
     "ios",
     "android"
   ],
-  "author": "Iñaki Baz Castillo at eFace2Face, inc.",
+  "author": "Akash Paul",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eface2face/iOSRTCApp/issues"
+    "url": "https://github.com/iakashpaul/iOSRTCApp/issues"
   },
-  "homepage": "https://github.com/eface2face/iOSRTCApp"
+  "homepage": "https://github.com/iakashpaul/iOSRTCApp"
 }

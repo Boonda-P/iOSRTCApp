@@ -37,7 +37,6 @@
             <string>Blink uses your microphone to make calls.</string>
         </config-file>
     </platform>
-    <plugin name="cordova-plugin-crosswalk-webview" spec="https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview" />
     <plugin name="cordova-plugin-device" version="^1.0.1" />
     <plugin name="cordova-plugin-iosrtc" version="^3.2.2" />
     <plugin name="cordova-plugin-camera" spec="https://github.com/eface2face/cordova-plugin-camera" />
