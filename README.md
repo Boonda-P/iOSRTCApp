@@ -3,6 +3,8 @@
 
 This is basically just a simple Cordova app, I'm going to upload an Ionic 2 app with the iOSRTC-plugin & some mods to work with iOS 10 & Android. Most likely with the EasyRTC framework.
 
+Also make revisions for CodeCanyon
+
 ## iOSRTCApp
 
 Google's [AppRTC](https://apprtc.appspot.com/) adapted to [Cordova](http://cordova.apache.org/) iOS with pure HTML5/JavaScript and [cordova-plugin-iosrtc](https://github.com/eface2face/cordova-plugin-iosrtc).
